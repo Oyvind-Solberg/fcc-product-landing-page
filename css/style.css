@@ -486,4 +486,7 @@ footer::before {
         width: 150%;
         left: -25%;
     }
+    .content {
+        padding: 4rem 3rem 4rem 3rem;
+    }
 }
