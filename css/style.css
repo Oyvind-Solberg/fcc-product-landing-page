@@ -136,6 +136,10 @@ body .focus-bg {
     background-color: var(--focus);
 }
 
+.mobile_img {
+    display: none;
+}
+
 /* Buttons */
 .btn {
     background-color: var(--background-dark);
@@ -383,7 +387,7 @@ footer::before {
         display: none;
     }
     header .social-icons {
-    display: flex;
+        display: flex;
     }
     header img {
         width: 8rem;
@@ -485,5 +489,14 @@ footer::before {
     #showcase video {
         width: 150%;
         left: -25%;
+    }
+    #video {
+        display: none;
+    }
+    .standard_img {
+        display: none;
+    }
+    .mobile_img {
+        display: inline-block;
     }
 }
