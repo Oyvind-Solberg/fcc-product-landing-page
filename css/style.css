@@ -54,7 +54,7 @@ input[type="submit"] {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 1rem;
     color: var(--text-title);
     text-transform: uppercase;
 }
@@ -78,6 +78,10 @@ h3 {
     letter-spacing: 0.3em;
     text-transform: uppercase;
     margin-top: 1rem;
+}
+
+abbr {
+    text-decoration: none;
 }
 
 /* Utility classes */
@@ -138,6 +142,10 @@ body .focus-bg {
 
 .mobile_img {
     display: none;
+}
+
+.single-line {
+    display: block;
 }
 
 /* Buttons */
@@ -222,6 +230,10 @@ header .social-icons li {
     width: 100vw;
     height: 100vh;
     background: radial-gradient(#ffffff34, #ffffff17);
+}
+
+#showcase h2 {
+    font-size: 4rem;
 }
 
 #showcase .product-img {
@@ -421,7 +433,7 @@ footer::before {
         top: 15%;
         left: 0;
     }
-    h1 {
+    #showcase h2 {
         font-size: 3rem;
     }
     h2 {
@@ -466,7 +478,7 @@ footer::before {
     #newsletter .content {
         padding: 1rem 2rem 5rem 2rem;
     }
-    h1 {
+    #showcase h2 {
         font-size: 2rem;
     }
     h2 {
